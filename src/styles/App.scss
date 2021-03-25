@@ -1,0 +1,37 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+// * {
+//     font-family: 'Century Gothic';
+// }
+
+
+
+.app-main {
+    height: 100%;
+    width: 100%;
+
+    .app_body {
+        display: flex;
+
+        .view_container {
+            flex: 0.83;
+        }
+        
+    }
+
+
+    @import'./Dashboard.scss';
+    @import'./header.scss';
+    @import'./Sidebar.scss';
+    @import'./InputOption.scss';
+    @import'./ViewContainer.scss';
+    @import'./Dropdown.scss';
+
+
+    
+}
